@@ -59,4 +59,8 @@ button {
   video {
     width: 100vw;
   }
+
+  button {
+    width: 50%;
+  }
 }

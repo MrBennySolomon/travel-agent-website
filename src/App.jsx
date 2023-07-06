@@ -1,20 +1,22 @@
-import './App.css'
-import yacht from "./assets/yacht.mp4";
+import "./App.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./MVC/View/Home";
+import Promo from "./MVC/View/Promo";
+import Root from "./MVC/View/Root";
 
-function App() {
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    // errorElement: <ErrorPage />,
+    children: [
+      { path: "/", element: <Promo /> },
+      { path: "/home", element: <Home /> }
+    ]
+  }
+]);
 
-  return (
-    <>
-      <div className="video-overlay">
-        <video autoPlay muted loop id="myVideo">
-          <source src={yacht} type="video/mp4" />
-        </video>
-        <button>
-          לחץ להתחיל את החופשה שלך
-        </button>
-      </div>
-    </>
-  );
-}
-
-export default App
+const App = () => {
+  return <RouterProvider router={router} />;
+};
+export default App;

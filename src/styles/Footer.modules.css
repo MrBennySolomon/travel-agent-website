@@ -1,0 +1,20 @@
+footer {
+  width:100vw;
+  height: 10vh;
+  background-color: #26001B;
+  border-top: 5px solid #FFF600;
+  color: #FF005C;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 150%;
+
+}
+
+@media (max-width:600px) {
+  footer {
+    font-size: 150%;
+  }
+}
