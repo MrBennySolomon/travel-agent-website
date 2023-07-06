@@ -11,17 +11,17 @@ const Home = () => {
         <Card
           name="דילים ליוון"
           price="החל מ-700₪ לאדם"
-          src="../src/img/greece.jpg"
+          img="greece"
         />
         <Card
           name="דילים לדובאי"
           price="החל מ-1000₪ לאדם"
-          src="../src/img/dubai.jpg"
+          img="dubai"
         />
         <Card
           name="דילים לאיסטנבול"
           price="החל מ-1100₪ לאדם"
-          src="../src/img/istanbul.jpg"
+          img="istanbul"
         />
         <div className="video-overlay">
           <video autoPlay muted loop id="myVideo">
