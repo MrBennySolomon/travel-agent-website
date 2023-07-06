@@ -3,7 +3,7 @@ import "../styles/Card.modules.css";
 const Card = ({ name, price, src }) => {
   return (
     <div className="card">
-      <img className="img-card" src={src} alt="Avatar" />
+      <img className="img-card" src={src} alt="Avatar"/>
       <div className="container">
         <h4 className="title">
           <b>{name}</b>
