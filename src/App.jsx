@@ -9,6 +9,9 @@ function App() {
         <video autoPlay muted loop id="myVideo">
           <source src={yacht} type="video/mp4" />
         </video>
+        <button>
+          לחץ להתחיל את החופשה שלך
+        </button>
       </div>
     </>
   );

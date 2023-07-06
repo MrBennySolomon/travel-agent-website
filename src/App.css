@@ -11,6 +11,8 @@ body {
 
 video {
   position: fixed;
+  top: 0;
+  right: 0;
   right: 0;
   bottom: 0;
   min-width: 100%;
@@ -26,6 +28,24 @@ video {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 80%;
+  height: 10%;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 150%;
 }
 
 @media (max-width: 1524px) {
