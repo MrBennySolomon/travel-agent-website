@@ -13,7 +13,7 @@ function Promo() {
           <source src={yacht} type="video/mp4" />
         </video>
         <button onClick={ () => navigate("/home")}>
-          לחץ להתחיל את החופשה שלך
+          אני רוצה לקבל הצעת מחיר לחופשה שלי
         </button>
       </div>
     </>
