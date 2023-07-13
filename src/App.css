@@ -54,6 +54,7 @@ button {
   height: 3rem;
   background-color: rgba(0, 0, 0, 0.5) !important;
   z-index: 100 !important;
+  min-height: 20%;
 }
 
 video {
