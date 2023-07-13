@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-import "../../styles/Home.modules.css";
+// import "../../styles/Home.modules.css";
+import "../../../src/App.css";
 import yacht from "../../assets/yacht.mp4";
 import { useState } from "react";
 // import MainNavigation from "../../components/MainNavigation";
