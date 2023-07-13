@@ -14,9 +14,10 @@ div.flex {
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 1rem;
   z-index: 100;
 }
